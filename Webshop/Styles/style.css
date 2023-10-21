@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+nav ul li a img {
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
+
+.shoe-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.shoe {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.shoe img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.shoe:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
